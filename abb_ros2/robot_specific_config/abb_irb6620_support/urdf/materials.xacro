@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<robot name="irb6620" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<material name="silver_default">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+<material name="opaque215215215">
+  <color rgba="0.8431372549019608 0.8431372549019608 0.8431372549019608 1.0"/>
+</material>
+<material name="opaque128128128">
+  <color rgba="0.5019607843137255 0.5019607843137255 0.5019607843137255 1.0"/>
+</material>
+
+</robot>

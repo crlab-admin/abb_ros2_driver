@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: abb_irb6620_support
+    relative_path: urdf/irb6620.urdf
+  srdf:
+    relative_path: config/irb6620.srdf
+  package_settings:
+    author_name: Jake
+    author_email: zj.tan@kajima.com.sg
+    generated_timestamp: 1733821030
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
