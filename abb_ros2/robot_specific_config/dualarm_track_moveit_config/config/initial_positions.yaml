@@ -1,0 +1,10 @@
+# Default initial positions for dualarm_track's ros2_control fake system
+
+initial_positions:
+  rob1_joint1: 0
+  rob1_joint2: 0
+  rob1_joint3: 0
+  rob1_joint4: 0
+  rob1_joint5: 0
+  rob1_joint6: 0
+  rob1_track: 0
