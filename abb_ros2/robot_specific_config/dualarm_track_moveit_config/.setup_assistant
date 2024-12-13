@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: dualarm_track_support
+    relative_path: urdf/dualarm_track.urdf
+  srdf:
+    relative_path: config/dualarm_track.srdf
+  package_settings:
+    author_name: Jake
+    author_email: zj.tan@kajima.com.sg
+    generated_timestamp: 1734064795
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

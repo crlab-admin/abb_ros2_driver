@@ -1,0 +1,27 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    dualarm_track_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+dualarm_track_controller:
+  ros__parameters:
+    joints:
+      - rob1_track
+      - rob1_joint1
+      - rob1_joint2
+      - rob1_joint3
+      - rob1_joint4
+      - rob1_joint5
+      - rob1_joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
